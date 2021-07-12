@@ -1,0 +1,29 @@
+.Input {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.Input input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: calc(10px + 4vmin);
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.Input:focus-within {
+  box-shadow: inset 0 0 10px #888;
+}
+
+.Input.correct {
+  background-color: #dfd;
+}
+
+.Input.incorrect {
+  background-color: #fdd;
+}
