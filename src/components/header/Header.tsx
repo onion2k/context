@@ -1,5 +1,4 @@
 import './header.css';
-
 export interface iHeader {
   title: String;
 }
